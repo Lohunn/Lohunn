@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm a Electronics and communication engineering student in specialization in Data science and Data analyics i'm looking forward to work in teams and competing in hackathons and major coding events . I have an immense interest in vibe coding AI models , making customized designer websites and also making electronic circuits of various domains and I'm currently an active learner of website and app development coding and advanced knowledge python and more available
+I'm a Electronics and communication engineering student in specialization in Data science and Data analytics i'm looking forward to work in teams and competing in hackathons and major coding events . I have an immense interest in vibe coding AI models , making customized designer websites and also making electronic circuits of various domains and I'm currently an active learner of website and app development coding and advanced knowledge python and more available
 
 
 ## 🌐 Socials:
