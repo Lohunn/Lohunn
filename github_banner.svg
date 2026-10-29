@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">LOHUNN LAZARO W — Electronics, Machine Learning AI, and Advanced Coding</title>
+  <desc id="desc">Profile banner for LOHUNN LAZARO W, ECE Data Science Student at SRMIST Ramapuram focusing on Electronics, Machine Learning AI, and Advanced Coding.</desc>
+
+  <defs>
+    <!-- Background Gradient: Deep Electric Violet & Purple -->
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </linearGradient>
+
+    <!-- Accent Gradient: Neon Cyan / Mint Electric Highlight -->
+    <linearGradient id="neonAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+
+    <!-- Subtle Tech Grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#f1f5f9" stroke-opacity="0.14" stroke-width="1"/>
+    </pattern>
+
+    <!-- Hard Neo-brutalist Shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="150%" height="160%">
+      <feDropShadow dx="8" dy="9" stdDeviation="0" flood-color="#090909"/>
+    </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="canvas">
+      <rect x="10" y="10" width="1180" height="500" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base Border & Canvas -->
+  <rect width="1200" height="520" rx="28" fill="#090909"/>
+  <rect x="10" y="10" width="1180" height="500" rx="22" fill="url(#purpleGrad)"/>
+
+  <!-- Background Decorative Grid and Vectors -->
+  <g clip-path="url(#canvas)">
+    <rect x="10" y="10" width="1180" height="500" fill="url(#grid)"/>
+    <circle cx="1085" cy="112" r="210" fill="#f8fafc" opacity="0.08"/>
+    <circle cx="927" cy="419" r="260" fill="#38bdf8" opacity="0.08"/>
+    <path d="M711 514L1190 240M790 514L1190 302M874 514L1190 365M963 514L1190 427" fill="none" stroke="#f8fafc" stroke-opacity="0.22" stroke-width="1.5"/>
+    <path d="M760 514L760 475M840 514L840 429M920 514L920 383M1000 514L1000 337M1080 514L1080 291M1160 514L1160 245" fill="none" stroke="#f8fafc" stroke-opacity="0.20" stroke-width="1.5"/>
+  </g>
+
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" fill="#090909">
+    <!-- Top Role Badge -->
+    <g filter="url(#shadow)">
+      <rect x="48" y="42" width="480" height="49" rx="9" fill="url(#neonAccent)" stroke="#090909" stroke-width="4"/>
+      <text x="68" y="74" font-size="17" font-weight="900" letter-spacing="1.2">ECE · DATA SCIENCE &amp; ENGINEERING</text>
+    </g>
+
+    <!-- Location / Institute Tag Badge -->
+    <g>
+      <rect x="910" y="43" width="232" height="47" rx="23.5" fill="#f8fafc" stroke="#090909" stroke-width="4"/>
+      <circle cx="934" cy="66.5" r="5" fill="#2dd4bf" stroke="#090909" stroke-width="2"/>
+      <text x="948" y="73" font-size="15" font-weight="900" letter-spacing="0.8">SRMIST RAMAPURAM</text>
+    </g>
+
+    <!-- Main Identity Header -->
+    <text x="48" y="195" font-size="74" font-weight="950" letter-spacing="-3">LOHUNN LAZARO W</text>
+    <text x="52" y="238" font-size="22" font-weight="900" letter-spacing="2.2">STUDENT AT SRMIST RAMAPURAM</text>
+
+    <!-- Dividing Rule -->
+    <rect x="48" y="270" width="621" height="5" rx="2.5" fill="#090909"/>
+
+    <!-- Key Focus Fields -->
+    <text x="48" y="322" font-size="24" font-weight="950" letter-spacing="0.2">ELECTRONICS × MACHINE LEARNING AI</text>
+    <text x="48" y="362" font-size="28" font-weight="950" letter-spacing="0.2">× ADVANCED CODING</text>
+
+    <!-- Operating Principle Card (Retained for future personalization) -->
+    <g transform="translate(48 405)">
+      <rect width="590" height="66" rx="12" fill="#f8fafc" stroke="#090909" stroke-width="4"/>
+      <text x="22" y="28" font-size="13" font-weight="900" letter-spacing="1.6">OPERATING PRINCIPLE</text>
+      <text x="22" y="51" font-size="18" font-weight="850">Explore electronics. Train intelligent models. Write resilient code.</text>
+      <path d="M554 23H570M562 15L570 23L562 31" fill="none" stroke="#090909" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Right-Hand Constellation Network Diagram (Retained & adapted to purple theme) -->
+    <g transform="translate(751 113)">
+      <text x="0" y="0" font-size="14" font-weight="900" letter-spacing="2">DOMAINS &amp; ARCHITECTURE</text>
+
+      <!-- Network Edges -->
+      <path d="M64 98L180 45L318 106L242 226L93 213L64 98Z" fill="none" stroke="#090909" stroke-width="3"/>
+      <path d="M64 98L242 226M180 45L93 213M180 45L242 226M64 98L318 106M93 213L318 106" fill="none" stroke="#090909" stroke-opacity="0.4" stroke-width="2"/>
+
+      <!-- Node Glyphs -->
+      <circle cx="64" cy="98" r="32" fill="#38bdf8" opacity="0.3" filter="url(#softGlow)"/>
+      <circle cx="64" cy="98" r="12" fill="#38bdf8" stroke="#090909" stroke-width="4"/>
+      <circle cx="180" cy="45" r="10" fill="#f8fafc" stroke="#090909" stroke-width="4"/>
+      <circle cx="318" cy="106" r="10" fill="#2dd4bf" stroke="#090909" stroke-width="4"/>
+      <circle cx="242" cy="226" r="10" fill="#f8fafc" stroke="#090909" stroke-width="4"/>
+      <circle cx="93" cy="213" r="10" fill="#38bdf8" stroke="#090909" stroke-width="4"/>
+
+      <!-- Node Labels -->
+      <g font-size="12" font-weight="950" letter-spacing="0.7">
+        <rect x="8" y="61" width="112" height="25" rx="5" fill="#090909"/>
+        <text x="21" y="79" fill="#f8fafc">HARDWARE</text>
+        <text x="145" y="20">AI / ML</text>
+        <text x="325" y="111">ALGORITHMS</text>
+        <text x="224" y="253">SYSTEMS</text>
+        <text x="29" y="243">RESEARCH</text>
+      </g>
+
+      <!-- Animated Pulse Dot -->
+      <circle cx="152" cy="104" r="5" fill="#090909">
+        <animate attributeName="cx" values="64;318;242;93;64" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="98;106;226;213;98" dur="7s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Bottom Status Block -->
+      <g transform="translate(18 281)">
+        <rect width="341" height="62" rx="11" fill="#090909"/>
+        <text x="17" y="25" fill="#a78bfa" font-size="12" font-weight="900" letter-spacing="1.5">CORE DIRECTION</text>
+        <text x="17" y="47" fill="#f8fafc" font-size="15" font-weight="850">Deep learning. Hardware. Systems.</text>
+        <circle cx="319" cy="31" r="9" fill="#2dd4bf"/>
+      </g>
+    </g>
+  </g>
+</svg>
